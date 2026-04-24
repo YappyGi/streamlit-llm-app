@@ -78,4 +78,3 @@ for message in st.session_state["messages"]:
        st.write(f"**ユーザー**: {message['content']}")
     else:
        st.write(f"**AI**: {message['content']}") 
-
